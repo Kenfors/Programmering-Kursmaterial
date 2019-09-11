@@ -16,5 +16,3 @@ print("...Det är samma som", distance*100, prefix + suffix)
 
 prefix = 'k'
 print("...I kilometer blir det:", distance/1000, prefix + suffix)
-
-

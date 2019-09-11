@@ -8,7 +8,12 @@
 		},
 		{
 			"path": "Python\\GUI"
+		},
+		{
+			"path": "Python\\Test"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }

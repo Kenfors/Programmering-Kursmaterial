@@ -1,7 +1,7 @@
 
 
-print("Hello! \n ")
-print("Albin Rosado Léona")
+print("Hello! \n")
+print("\tAlbin Rosado Léona")
 print("Anayi Yaser")
 print("Asplund Marcus ")
 print("Bal Emir ")

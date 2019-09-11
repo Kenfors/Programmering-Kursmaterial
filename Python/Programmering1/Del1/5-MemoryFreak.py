@@ -1,13 +1,11 @@
 
+LAST_NAME = "Bond"
+FIRST_NAME = "James"
+FULL_NAME = FIRST_NAME + " " + LAST_NAME
+BIG_NAME = FIRST_NAME.upper() + " " + LAST_NAME.upper()
+FANCY_NAME = LAST_NAME + ", " + FULL_NAME
 
-LastName = "Bond"
-FirstName = "James "
-FullName = FirstName + LastName
-BigName = FirstName.upper() + LastName.upper()
-FancyName = LastName + ", " + FullName
 
-
-print(FullName)
-print(BigName)
-print(FancyName)
-
+print(FULL_NAME)
+print(BIG_NAME)
+print(FANCY_NAME)

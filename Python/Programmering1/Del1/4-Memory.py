@@ -1,7 +1,9 @@
 
 
-Name = "Heisenberg"
+FIRST_NAME = "Karl"
+LAST_NAME = "Heisenberg"
+
 
 print("WHATS MY NAME?!")
-print("its", Name)
+print("its", FIRST_NAME, LAST_NAME)
 
