@@ -2,7 +2,7 @@ import turtle, random
 
 def keep():
     angle = head.towards(0,0)
-    angle += 22
+    angle = angle + 22
     angle -= (angle%45)
     head.setheading(angle)
     return

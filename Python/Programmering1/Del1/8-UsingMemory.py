@@ -4,15 +4,15 @@
 
 print("\n\n\n\n")
 
-distance = 3
-suffix = 'm'
+distance = int(input("Skriv antal meter: "))
+unit = 'm'
 
 
-print("Sträckan är", distance, suffix, "lång")
+print("Sträckan är", distance, unit, "lång")
 
-prefix = 'c'
-print("...Det är samma som", distance*100, prefix + suffix)
+multiplier = 'c'
+print("...Det är samma som", distance*100, multiplier + unit)
 
 
-prefix = 'k'
-print("...I kilometer blir det:", distance/1000, prefix + suffix)
+multiplier = 'k'
+print("...I kilometer blir det:", distance/1000, multiplier + unit)
