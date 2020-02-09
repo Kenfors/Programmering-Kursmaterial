@@ -9,7 +9,7 @@ Artwork from http://kenney.nl
 If Python and Arcade are installed, this example can be run from the command line with:
 python -m arcade.examples.asteroid_smasher
 """
-import random
+import random 
 import math
 import arcade
 import os
@@ -41,6 +41,8 @@ class ShipSprite(arcade.Sprite):
 
     Derives from arcade.Sprite.
     """
+
+
     def __init__(self, filename, scale):
         """ Set up the space ship. """
 
@@ -68,6 +70,7 @@ class ShipSprite(arcade.Sprite):
         self.center_x = SCREEN_WIDTH / 2
         self.center_y = SCREEN_HEIGHT / 2
         self.angle = 0
+        
 
     def update(self):
         """
